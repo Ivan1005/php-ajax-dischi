@@ -37,10 +37,3 @@
             'poster' => 'https://images-na.ssl-images-amazon.com/images/I/81MDAIdh78L._SY355_.jpg'
         ]
     ];
-<<<<<<< HEAD
-
-=======
-    header('Content-Type: application/json');
-    echo json_encode($database);
->>>>>>> 3ccf3f80b8d3acda68155bf16db2ca06168ed146
-?>
