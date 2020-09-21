@@ -15,6 +15,7 @@
                 <a href=""><img src="https://cdn.iconscout.com/icon/free/png-256/spotify-11-432546.png" alt="Spotify-logo"></a>
             </div>
         </header>
+<<<<<<< HEAD
         <main class="yes">
 
         </main>
@@ -27,6 +28,18 @@
             </div>
           </script>
 
+=======
+        <main>
+          <script id="entry-template" type="text/x-handlebars-template">
+            <div class="box">
+                <img src="{{poster}}" alt="<?php echo $cd['title']; ?>">
+                <h3>{{title}}</h3>
+                <h4 >{{year}}</h4>
+                <h4 >{{author}}</h4>
+            </div>
+          </script>
+        </main>
+>>>>>>> 3ccf3f80b8d3acda68155bf16db2ca06168ed146
 
         <script src="js\script.js" charset="utf-8"></script>
     </body>
